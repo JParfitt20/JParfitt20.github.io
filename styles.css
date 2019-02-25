@@ -8,3 +8,14 @@
   background-size: cover;
   height:100vh;
 }
+
+footer{
+  text-align: center;
+  padding: 5px 0;
+  border-top: solid black 2px;
+}
+
+.github{
+  width:30px;
+  margin-right: 5px;
+}
