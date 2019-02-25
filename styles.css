@@ -19,3 +19,13 @@ footer{
   width:30px;
   margin-right: 5px;
 }
+
+.timeline-item{
+  background:#e8ecbb;
+  border: solid 1px #f62459;
+  border-radius: 5px;
+}
+
+.hide{
+    display:none;
+}
