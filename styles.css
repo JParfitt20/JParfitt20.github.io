@@ -1,7 +1,4 @@
-.navbar-nav{
-  align-items: flex-end;
-  font-size: 1.5rem;
-}
+
 
 .jumbotron{
   background-image: url(http://placeimg.com/640/480/any);
@@ -16,7 +13,7 @@ footer{
 }
 
 .github{
-  width:30px;
+  width:15px;
   margin-right: 5px;
 }
 
@@ -28,4 +25,15 @@ footer{
 
 .hide{
     display:none;
+}
+
+@media(min-width: 790px){
+  .navbar-nav{
+    align-items: flex-end;
+    font-size: 1.5rem;
+  }
+  .github{
+    width:20px;
+
+  }
 }
