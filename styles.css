@@ -17,6 +17,9 @@ footer{
   margin-right: 5px;
 }
 
+#about{
+  width:50%;
+}
 
 /* Styling cards for projects */
 .card{
@@ -29,11 +32,15 @@ footer{
     width: 80%;
 }
 
-#timeline-1{
+.card:nth-child(odd){
   background: radial-gradient(circle, transparent, teal 99%),
               url(http://placeimg.com/640/480/any) ;
-
 }
+
+/* .card:nth-child(even){
+  background: radial-gradient(circle, transparent, magenta, transparent 75%);
+
+} */
 
 /* Styling language lists */
 
