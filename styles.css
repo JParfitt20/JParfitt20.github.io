@@ -17,15 +17,39 @@ footer{
   margin-right: 5px;
 }
 
-.timeline-item{
-  background:#e8ecbb;
-  border: solid 1px #f62459;
-  border-radius: 5px;
+.card{
+  align-items: center;
 }
 
-.hide{
-    display:none;
+.list-group{
+  flex-direction: row;
+  flex-wrap:wrap;
 }
+
+.list-group-item{
+  margin-right: 2px;
+  border-radius:.25rem;
+  text-align: center;
+  color:white;
+}
+.html{
+  background:teal;
+  border: solid teal 1px;
+}
+.css{
+  background:magenta;
+  border: solid magenta 1px;
+}
+.javascript{
+  background: purple;
+  border: solid purple 1px;
+}
+.php{
+  background:red;
+  border: solid red 1px;
+}
+
+
 
 @media(min-width: 790px){
   .navbar-nav{
