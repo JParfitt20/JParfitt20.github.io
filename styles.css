@@ -17,9 +17,25 @@ footer{
   margin-right: 5px;
 }
 
+
+/* Styling cards for projects */
 .card{
   align-items: center;
+  flex-wrap: wrap;
 }
+
+.card-body{
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+#timeline-1{
+  background: radial-gradient(circle, transparent, teal 99%),
+              url(http://placeimg.com/640/480/any) ;
+
+}
+
+/* Styling language lists */
 
 .list-group{
   flex-direction: row;
@@ -32,6 +48,7 @@ footer{
   text-align: center;
   color:white;
 }
+
 .html{
   background:teal;
   border: solid teal 1px;
@@ -58,6 +75,6 @@ footer{
   }
   .github{
     width:20px;
-
   }
+
 }
