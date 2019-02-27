@@ -1,7 +1,7 @@
 
 
 .jumbotron{
-  background-image: url(http://placeimg.com/640/480/any);
+  background-image: url(img/jumbotron2.jpg);
   background-size: cover;
   height:100vh;
 }
@@ -25,28 +25,37 @@ footer{
 .card{
   align-items: center;
   flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card-img-top{
+  width:100%;
 }
 
 .card-body{
     flex-wrap: wrap;
     width: 80%;
+
 }
 
-.card:nth-child(odd){
-  background: radial-gradient(circle, transparent, teal 99%),
-              url(http://placeimg.com/640/480/any) ;
-}
+/* .card:nth-child(odd){
+  background: radial-gradient(circle, transparent, teal 70%); */
+  /* background: no-repeat center/cover url(img/flower.jpg); */
+/*  }*/
+
 
 /* .card:nth-child(even){
-  background: radial-gradient(circle, transparent, magenta, transparent 75%);
+  background: radial-gradient(circle, transparent, #7fbfbf 85%);
 
 } */
 
 /* Styling language lists */
 
 .list-group{
+
   flex-direction: row;
   flex-wrap:wrap;
+  align-self: flex-end;
 }
 
 .list-group-item{
@@ -57,8 +66,8 @@ footer{
 }
 
 .html{
-  background:teal;
-  border: solid teal 1px;
+  background: darkblue;
+  border: solid darkblue 1px;
 }
 .css{
   background:magenta;
