@@ -39,16 +39,7 @@ footer{
 
 }
 
-/* .card:nth-child(odd){
-  background: radial-gradient(circle, transparent, teal 70%); */
-  /* background: no-repeat center/cover url(img/flower.jpg); */
-/*  }*/
 
-
-/* .card:nth-child(even){
-  background: radial-gradient(circle, transparent, #7fbfbf 85%);
-
-} */
 
 /* Styling language lists */
 
@@ -68,19 +59,18 @@ footer{
 
 .html{
   background: darkblue;
-  border: solid darkblue 1px;
 }
 .css{
   background:magenta;
-  border: solid magenta 1px;
 }
 .javascript{
   background: purple;
-  border: solid purple 1px;
 }
 .php{
   background:red;
-  border: solid red 1px;
+}
+.sql{
+  background:teal;
 }
 
 
